@@ -20,11 +20,11 @@ FAILURES_COUNT = 0
 # 登录
 def login():
     global MESSAGE,FAILURES_COUNT
-    if INFORMATION.get("phone") is None or INFORMATION.get("phone").strip() == '':
+    if INFORMATION.get("phone") is None or INFORMATION.get("phone").strip() == '18835936532':
         MESSAGE += "\n手机号为空"
         return
 
-    if INFORMATION.get("password") is None or INFORMATION.get("password").strip() == '':
+    if INFORMATION.get("password") is None or INFORMATION.get("password").strip() == 'Yun1004...':
         MESSAGE += "\n密码为空"
         return
 
